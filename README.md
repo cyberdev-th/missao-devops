@@ -5,6 +5,7 @@ Este é o meu primeiro projeto na jornada DevSecOps.
 ## Funcionalidades
 
 - Todas as funcionalidades implementadas no projeto.
+- Principais funcionalidades do projeto destacadas para você.
 
 ## Colaboradores
 
