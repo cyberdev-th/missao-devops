@@ -10,3 +10,7 @@ Este é o meu primeiro projeto na jornada DevSecOps.
 ## Colaboradores
 
 - Em breve, teremos uma lista de colaboradores.
+
+## Como contribuir
+
+- Instruções sobre como as pessoas podem contribuir com este projeto.
