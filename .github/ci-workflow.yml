@@ -3,22 +3,22 @@ name: Workflow de Integração Contínua
 on:
   pull_request:
     branches: [ "main" ]
-  
+
 jobs:
   testes:
     runs-on: ubuntu-latest
 
-steps:
-  - name: 1. Baixando o código do repositório
-    uses: actions/checkout@v3
+    steps:
+      - name: 1. Baixando o código do repositório
+        uses: actions/checkout@v3
 
-  - name: 2. Configurando o ambiente Node.js
-    uses: actions/setup-node@v3
-    with:
-      node-version: 18.x
-    
-  - name: 3. Instalando as dependências
-    run: npm install
+      - name: 2. Configurando o ambiente Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
 
-  - name: 4. Rodando os testes
-    run: npm test
+      - name: 3. Instalando as dependências
+        run: npm install
+
+      - name: 4. Rodando os testes
+        run: npm test
