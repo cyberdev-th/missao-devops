@@ -14,3 +14,4 @@ Este é o meu primeiro projeto na jornada DevSecOps.
 ## Como contribuir
 
 - Instruções sobre como as pessoas podem contribuir com este projeto.
+- Grandes coisas vêm por aí
